@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agency Treloo</title>
+  <!-- Links to typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Link to style sheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Link to javascript file -->
+  <script src="./javascript/index.js" defer></script>
+</head>
+
+<body>
+  <header class="home">
+    <div class="menu">
+      <div class="logo">Treloo</div>
+      <ul>
+        <li><a href="">Review</a></li>
+        <li><a href="">Tips</a></li>
+        <li><a href="">Alerts</a></li>
+        <li><a href="">Blog</a></li>
+      </ul>
+    </div>
+    <div class="legend">
+      <b class="bold">Discover Your Life, Travel Where You Want</b>
+      Would you explore natur paradise in the world, let's find the best destination in world with us.
+    </div>
+  </header>
+  <main class="main">
+    <section class="search">
+      <div class="menu-2">
+        <ul>
+          <li><a class="flight" href=""><img src="./assets/airplane-mode-3.png" alt="Airplane flying"> Flight</a>
+          </li>
+          <li><a class="hotel" href=""><img src="./assets/hotel-star.png" alt="Hotel"> Hotel</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <div class="trip">
+          <div class="origin">
+            <div class="leaving">
+              Leaving From
+            </div>
+            <span>Dubai</span>
+          </div>
+          <img src="./assets/airplane-mode-on.png" alt="Travelling">
+          <div class="destination">
+            <div class="going">
+              Going To
+            </div>
+            <span>New York</span>
+          </div>
+        </div>
+        <div class="date">
+              <div class="origin">
+                <div class="leave">
+                  Leave
+                  <img src="./assets/airplane-mode-1.png" alt="Leaving">
+                </div>
+                23 Jan, Sat
+              </div>
+              <img class="planner" src="./assets/planner.png" alt="Calendar">
+              <div class="destination">
+                <div class="return">
+                  Return
+                  <img src="./assets/airplane-mode-2.png" alt="Returning">
+                </div>
+                14 Jan, Thu
+              </div>
+            </div>
+            <div class="search-icon">
+              <img class="ellipse" src="./assets/ellipse-2.png" alt="Ellipse">
+              <img class="line" src="./assets/line-1.png" alt="Line">
+            </div>
+        </div>
+      </section>
+      <section class="offers">
+        <h2 class="offers__title">Special Upcoming Offers</h2>
+        <div class="offers__selector">
+          <button class="offers__btn offers__btn--team offers__btn--active">
+            Team
+          </button>
+          <button class="offers__btn offers__btn--couple">Couple</button>
+          <button class="offers__btn offers__btn--family">Family</button>
+        </div>
+        <div class="offers__container">
+          <article class="offer-card">
+            <header class="offer-card__header">
+              <img
+                src="./assets/loga-sea.svg"
+                alt="Loga sea beach"
+                class="offer-card__image"
+              />
+              <p class="offer-card__date">14 FEB 2022</p>
+            </header>
+            <section class="offer-card__data">
+              <div class="offer-card__type">
+                <span class="tag tag--relax">Relax</span>
+                <span class="offer-card__time">3 Days, 3 Nights</span>
+              </div>
+              <h3 class="offer-card__place">Loga Sea</h3>
+              <div class="offer-card__container">
+                <p class="offer-card__cost">700$<span class="offer-card__cost--light">/Person</span></p>
+                <a href="#" class="book-now">Book Now</a>
+              </div>
+            </section>
+          </article>
+          <article class="offer-card">
+            <header class="offer-card__header">
+              <img
+                src="./assets/ansgar-scheffold.png"
+                alt="Ansgar Scheffold views"
+                class="offer-card__image"
+              />
+              <p class="offer-card__date">18 JUN 2022</p>
+            </header>
+            <section class="offer-card__data">
+              <div class="offer-card__type">
+                <span class="tag tag--adventure">Adventure</span>
+                <span class="offer-card__time">4 Days, 3 Nights</span>
+              </div>
+              <h3 class="offer-card__place">Ansgar Scheffold</h3>
+              <div class="offer-card__container">
+                <p class="offer-card__cost">400$<span class="offer-card__cost--light">/Person</span></p>
+                <a href="#" class="book-now">Book Now</a>
+              </div>
+            </section>
+          </article>
+          <article class="offer-card">
+            <header class="offer-card__header">
+              <img
+                src="./assets/lona-x.png"
+                alt="Lona X man seeing a river over a bay"
+                class="offer-card__image"
+              />
+              <p class="offer-card__date">22 DEC 2022</p>
+            </header>
+            <section class="offer-card__data">
+              <div class="offer-card__type">
+                <span class="tag tag--relax">Relax</span>
+                <span class="offer-card__time">7 Days, 6 Nights</span>
+              </div>
+              <h3 class="offer-card__place">Lona X</h3>
+              <div class="offer-card__container">
+                <p class="offer-card__cost">340$<span class="offer-card__cost--light">/Person</span></p>
+                <a href="#" class="book-now">Book Now</a>
+              </div>
+            </section>
+          </article>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about__art">
+          <div class="about__image-container">
+            <div class="about__cards about__cards--destination">
+              <p class="about__numbers">300+</p>
+              <p class="about__text">Destinations</p>
+            </div>
+            <div class="about__cards about__cards--tourists">
+              <p class="about__numbers">5000+</p>
+              <p class="about__text">Tourists</p>
+            </div>
+            <div class="about__cards about__cards--hotels">
+              <p class="about__numbers">150+</p>
+              <p class="about__text">Hotels</p>
+            </div>
+            <img
+              class="about__image"
+              src="./assets/man-rocks-sea.jpg"
+              alt="Man over rocks seeing the sea"
+            />
+          </div>
+        </div>
+        <div class="about__description">
+          <h2 class="about__title">Travel Any Corner of The World With Us</h2>
+          <p class="about__parragraph">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us, Would you explore nature paradise in
+            the world, let’s find the best destination in world with us. Would
+            you explore nature paradise in the world, let’s find the best
+            destination in world with us.
+          </p>
+          <p class="about__parragraph">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us.
+          </p>
+          <button class="contact-us">Contact Us</button>
+        </div>
+      </section>
+
+      <section class="recommended-destination">
+      
+      <header class="header-destination">
+        <h2 id="destination-title">Recommended Destination</h2>
+      </header>
+      <nav class="nav-bar-recommended-destination">
+        <button class="nav-bar-btn" type="button" name="populor" id="populor">Populor</button>
+        <button class="nav-bar-btn" type="button" name="adventure" id="adventure">Adventure</button>
+        <button class="nav-bar-btn" type="button" name="beath" id="beath">Beath</button>
+      </nav>
+      <div class="container-recommendend-destination-cards">
+
+        <article class="destination-card" id="card-lakemountain">
+            <img class="cov-img"
+            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80">
+            <div class="rating-container">
+              <span> <img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">3.4</span>
+            </div>
+            <section class="location">
+              <h3 class="kina-mountain-text">Kina Mountain</h3>
+              <span class="cambodia-text"><img class="location-img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+            </section>
+        </article>
+       
+        <article class="destination-card" id="card-mountain">
+          <img class="cov-img"
+            src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="mountain-img">
+          <div class="rating-container">
+            <span><img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              4.5</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img class="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+        <article class="destination-card" id="card-beach">
+          <img class="cov-img"
+            src="https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="beach-img">
+          <div class="rating-container">
+            <span><img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              4.2</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img class="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+        <article class="destination-card" id="card-palms">
+            <img  class="cov-img"
+              src="/assets/palms.png"
+              alt="beach-img">
+          <div class="rating-container">
+            <span><img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              3.5</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img class="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+      </div>
+    </section>
+      <section class="reviews">
+        <div class="review-articles-cointainer">
+          <article class="review-article">
+            <img class="img-quotation"src="/assets/quote.png" alt="quotation-image" >
+          <section class="review-section">
+            <figure>
+              <blockquote class="review">
+                <p class="quote-text">
+                Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+              </p> 
+            </blockquote>
+            <figcaption class="reviewer-name">-Vand D</figcaption>
+            <span class="reviewer-from">Happy Treloo</span>
+          </figure>
+          </section>
+          <div class="container-img-reviewer-rating">
+            <img class="image-reviewer" src="/assets/van_d.png" alt="image-reviewer" width="100" height="100">
+            <div class="rat-container">
+              <span class="rating-container-span"><img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+                4.5</span>
+          </div>
+         </div>
+        </article>
+        <article class="review-article">
+            <img class="img-quotation" src="/assets/quote.png" alt="quotation-image">
+          <section class="review-section">
+            <figure>
+              <blockquote class="review">
+               <p class="quote-text">
+                Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+               </p> 
+              </blockquote>
+              <figcaption class="reviewer-name">-Vand D</figcaption>
+              <span class="reviewer-from">Happy Treloo</span>
+            </figure>
+          </section>
+          <div class="container-img-reviewer-rating">
+            <img class="image-reviewer"src="/assets/tru.png" alt="image-reviewer" width="100" height="100">
+            <div class="rat-container">
+              <span class="rating-container-span"><img class="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+                4.9</span>
+          </div>
+        </div>
+        </article>
+        </div>
+        <div class="nav-reviews">
+          <button class="nav-btn"> < </button>
+          <button class="nav-btn"> > </button>
+        </div>
+      </section>
+      <section class="register">
+        <div class="register__boxText">
+          <p class="register__description">Don’t Miss The 50% Discount if You register Today</p>
+          <button class="register__btn">Register Today</button>
+        </div>
+        <div class="register__navFoot">
+          <p class="register__copyRight">© 2022 Treloo LLC - All right reserved.</p>
+          <ul>
+            <li><a href="#">Review</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Alerts</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>        
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
